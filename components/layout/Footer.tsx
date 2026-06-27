@@ -93,22 +93,30 @@ export default function Footer() {
           <p className="font-sans text-sm text-white/70">
             © 2026 Zeember. Insurance cost estimates for informational purposes only.
           </p>
-          <div className="flex items-center gap-6">
-            <Link href="/privacy" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
-              Privacy Policy
-            </Link>
-            <Link href="/disclaimer" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
-              Disclaimer
-            </Link>
-            <Link href="/about" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
-              About
-            </Link>
-            <Link href="/methodology" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
-              Methodology
-            </Link>
-            <Link href="/contact" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
-              Contact
-            </Link>
+          <div className="flex flex-col items-center md:items-end gap-3">
+            <div className="flex items-center gap-6">
+              <Link href="/privacy" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
+                Privacy Policy
+              </Link>
+              <Link href="/disclaimer" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
+                Disclaimer
+              </Link>
+              <Link href="/about" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
+                About
+              </Link>
+              <Link href="/methodology" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
+                Methodology
+              </Link>
+              <Link href="/contact" className="font-sans text-sm text-white/70 hover:text-white transition-colors">
+                Contact
+              </Link>
+            </div>
+            <p className="font-sans text-xs text-white/40">
+              Developed by{' '}
+              <a href="https://matowodev.com" target="_blank" rel="noopener noreferrer" className="text-white/60 hover:text-white transition-colors">
+                Matowo Dev
+              </a>
+            </p>
           </div>
         </div>
       </div>
