@@ -11,7 +11,7 @@ const navLinks = [
   { label: 'Home Insurance', href: '/home-insurance-calculator' },
   { label: 'Health', href: '/health-insurance-deductible-calculator' },
   { label: 'Compare', href: '/compare' },
-  { label: 'Life Events', href: '/life-events/just-got-married' },
+  { label: 'Life Events', href: '/life-events' },
   { label: 'Blog', href: '/blog' },
 ]
 
