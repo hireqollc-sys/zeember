@@ -23,6 +23,7 @@ import {
   ArrowRight,
 } from 'lucide-react'
 import AdUnit from '@/components/AdUnit'
+import USStateMap from '@/components/map/USStateMap'
 
 export const metadata: Metadata = {
   title: 'Zeember — Know What Coverage Really Costs',
@@ -345,7 +346,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ── 4. STATE MAP (placeholder — replaced in Step 12) ── */}
+      {/* ── 4. STATE MAP ── */}
       <section className="bg-white py-20">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="font-serif text-[36px] md:text-[28px] font-semibold text-primary-dark text-center mb-3">
@@ -354,9 +355,8 @@ export default function HomePage() {
           <p className="font-sans text-[17px] text-neutral-500 text-center mb-8">
             Click any state to see how your rates compare nationally.
           </p>
-          <div className="bg-primary-light border border-primary-accent/20 rounded-2xl h-72 flex flex-col items-center justify-center gap-4">
-            <MapPin size={32} className="text-primary-dark/40" />
-            <p className="font-sans text-neutral-500">Interactive state map — coming soon</p>
+          <USStateMap initialType="auto" />
+          <div className="text-center mt-6">
             <Link
               href="/state-map"
               className="font-sans text-sm font-semibold text-primary-accent hover:underline"
