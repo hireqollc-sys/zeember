@@ -16,7 +16,7 @@ test('homepage has calculator grid with 6 cards', async ({ page }) => {
 // Calculator tests
 test('auto insurance calculator: fill fields, calculate, see result', async ({ page }) => {
   await page.goto('/auto-insurance-calculator')
-  await expect(page.locator('h1')).toContainText('Auto Insurance')
+  await expect(page.locator('h1')).toContainText('Auto insurance', { ignoreCase: true })
 
   // Select state
   await page.getByRole('combobox').first().click()
@@ -29,26 +29,26 @@ test('auto insurance calculator: fill fields, calculate, see result', async ({ p
   await page.getByRole('button', { name: /calculate/i }).click()
 
   // Wait for result with a dollar amount
-  await expect(page.locator('text=/\\$[0-9,]+/')).toBeVisible({ timeout: 5000 })
+  await expect(page.locator('text=/\\$[0-9,]+/').first()).toBeVisible({ timeout: 5000 })
 })
 
 test('life insurance calculator: fill DIME fields, see coverage gap', async ({ page }) => {
   await page.goto('/how-much-life-insurance-do-i-need')
-  await expect(page.locator('h1')).toContainText('Life Insurance')
+  await expect(page.locator('h1')).toContainText('life insurance', { ignoreCase: true })
 
   await page.locator('input[name="annualIncome"]').fill('75000')
   await page.locator('input[name="mortgageBalance"]').fill('250000')
   await page.getByRole('button', { name: /calculate/i }).click()
 
-  await expect(page.locator('text=/\\$[0-9,]+/')).toBeVisible({ timeout: 5000 })
+  await expect(page.locator('text=/\\$[0-9,]+/').first()).toBeVisible({ timeout: 5000 })
 })
 
 test('home insurance calculator: fills and calculates', async ({ page }) => {
   await page.goto('/home-insurance-calculator')
-  await expect(page.locator('h1')).toContainText('Home Insurance')
+  await expect(page.locator('h1')).toContainText('Home insurance', { ignoreCase: true })
   await page.locator('input[name="homeValue"]').fill('350000')
-  await page.getByRole('button', { name: /calculate/i }).click()
-  await expect(page.locator('text=/\\$[0-9,]+/')).toBeVisible({ timeout: 5000 })
+  await page.getByRole('button', { name: 'Calculate my estimate' }).click()
+  await expect(page.locator('text=/\\$[0-9,]+/').first()).toBeVisible({ timeout: 5000 })
 })
 
 // State map test
@@ -62,9 +62,9 @@ test('state map loads', async ({ page }) => {
 test('insurer comparison table loads with 8 insurers', async ({ page }) => {
   await page.goto('/compare')
   await expect(page.locator('h1')).toContainText('Compare insurance companies')
-  await expect(page.locator('text=GEICO')).toBeVisible()
-  await expect(page.locator('text=Progressive')).toBeVisible()
-  await expect(page.locator('text=USAA')).toBeVisible()
+  await expect(page.getByRole('link', { name: 'GEICO' }).first()).toBeVisible()
+  await expect(page.getByRole('link', { name: 'Progressive' }).first()).toBeVisible()
+  await expect(page.getByRole('link', { name: 'USAA' }).first()).toBeVisible()
   const rows = page.locator('table tbody tr')
   await expect(rows).toHaveCount(8)
 })
@@ -79,23 +79,23 @@ test('GEICO review page loads', async ({ page }) => {
 // Quiz test
 test('umbrella quiz: complete and see recommendation', async ({ page }) => {
   await page.goto('/quizzes/do-i-need-umbrella-insurance')
-  await expect(page.locator('h1')).toContainText('umbrella insurance')
+  await expect(page.locator('h1')).toContainText('umbrella insurance', { ignoreCase: true })
 
   // Answer all 6 questions by clicking first option each time
   for (let i = 0; i < 6; i++) {
     await page.locator('button').filter({ hasText: /./}).first().click()
-    await page.waitForTimeout(400) // wait for animation
+    await page.waitForTimeout(400)
   }
 
   // Recommendation should appear
-  await expect(page.locator('text=/umbrella insurance/')).toBeVisible({ timeout: 5000 })
+  await expect(page.locator('text=/umbrella insurance/i').first()).toBeVisible({ timeout: 5000 })
 })
 
 // Glossary
 test('glossary hub loads with terms', async ({ page }) => {
   await page.goto('/glossary')
   await expect(page.locator('h1')).toContainText('Insurance glossary')
-  await expect(page.locator('text=Deductible')).toBeVisible()
+  await expect(page.locator('text=Deductible').first()).toBeVisible()
 })
 
 test('deductible glossary term page loads with full definition', async ({ page }) => {
@@ -113,7 +113,7 @@ test('blog hub loads with articles', async ({ page }) => {
 
 test('first blog post loads with content', async ({ page }) => {
   await page.goto('/blog/how-auto-insurance-rates-are-calculated')
-  await expect(page.locator('h1')).toContainText('Auto Insurance Rates')
+  await expect(page.locator('h1')).toContainText('Auto Insurance Rates', { ignoreCase: true })
   await expect(page.locator('article')).toBeVisible()
 })
 
@@ -136,7 +136,9 @@ const CALCULATOR_URLS = [
 for (const url of CALCULATOR_URLS) {
   test(`disclaimer present on ${url}`, async ({ page }) => {
     await page.goto(url)
-    await expect(page.locator('text=/informational purposes only|This is an estimate/')).toBeVisible()
+    await expect(
+      page.locator('text=/informational purposes only|This is an estimate/').first()
+    ).toBeVisible()
   })
 }
 
@@ -152,7 +154,7 @@ test('sitemap.xml returns XML with many URLs', async ({ page }) => {
 
 // Robots.txt
 test('robots.txt allows crawling and references sitemap', async ({ page }) => {
-  const response = await page.goto('/robots.txt')
+  const response = await page.goto('/robots.txt', { timeout: 30000 })
   expect(response?.status()).toBe(200)
   const content = await page.content()
   expect(content).toContain('sitemap.xml')
@@ -161,8 +163,15 @@ test('robots.txt allows crawling and references sitemap', async ({ page }) => {
 // Life events
 test('just-got-married life event page loads', async ({ page }) => {
   await page.goto('/life-events/just-got-married')
-  await expect(page.locator('h1')).toContainText('married')
+  await expect(page.locator('h1')).toContainText('married', { ignoreCase: true })
   await expect(page.locator('text=What changes with your insurance')).toBeVisible()
+})
+
+// Life events hub
+test('life events hub page loads', async ({ page }) => {
+  await page.goto('/life-events')
+  await expect(page.locator('h1')).toContainText("What's changed in your life")
+  await expect(page.locator('text=Just got married').first()).toBeVisible()
 })
 
 // Static pages

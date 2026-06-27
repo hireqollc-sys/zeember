@@ -192,6 +192,7 @@ export default function HomePage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(orgSchema) }} />
+      <main>
 
       {/* ── 1. HERO ── */}
       <section className="bg-primary py-20 md:py-14">
@@ -506,6 +507,7 @@ export default function HomePage() {
       <div className="max-w-7xl mx-auto px-6 py-6">
         <AdUnit slot="HOMEPAGE_BOTTOM" format="leaderboard" />
       </div>
+      </main>
     </>
   )
 }

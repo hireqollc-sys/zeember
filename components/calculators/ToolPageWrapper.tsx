@@ -32,7 +32,7 @@ export default function ToolPageWrapper({
   children,
 }: ToolPageWrapperProps) {
   return (
-    <>
+    <main>
       {/* Page hero */}
       <section className="bg-primary-light py-10 md:py-8">
         <div className="max-w-7xl mx-auto px-6">
@@ -122,6 +122,6 @@ export default function ToolPageWrapper({
       <div className="max-w-7xl mx-auto px-6 py-8">
         <AdUnit slot="RECTANGLE_1" format="rectangle" />
       </div>
-    </>
+    </main>
   )
 }

@@ -14,7 +14,7 @@ const config: Config = {
         /* Brand colors */
         primary: {
           DEFAULT: '#0F3D2E',
-          accent:  '#3FAE76',
+          accent:  '#15803d',  /* green-700 — 4.6:1 contrast with white, WCAG AA compliant */
           dark:    '#0A2E22',
           light:   '#D9EFE3',
         },
