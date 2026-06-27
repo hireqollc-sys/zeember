@@ -1,0 +1,424 @@
+{
+  "states": {
+    "Alabama": {
+      "slug": "alabama",
+      "abbreviation": "AL",
+      "auto": { "annual": 1548, "monthly": 129, "rank": 15, "trend": "up" },
+      "home": { "annual": 2140, "monthly": 178, "rank": 43, "trend": "up" },
+      "renters": { "annual": 260, "monthly": 22, "rank": 28, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 42, "rank": 19, "trend": "stable" }
+    },
+    "Alaska": {
+      "slug": "alaska",
+      "abbreviation": "AK",
+      "auto": { "annual": 1350, "monthly": 113, "rank": 9, "trend": "stable" },
+      "home": { "annual": 1070, "monthly": 89, "rank": 8, "trend": "up" },
+      "renters": { "annual": 220, "monthly": 18, "rank": 12, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 44, "rank": 22, "trend": "stable" }
+    },
+    "Arizona": {
+      "slug": "arizona",
+      "abbreviation": "AZ",
+      "auto": { "annual": 2040, "monthly": 170, "rank": 41, "trend": "up" },
+      "home": { "annual": 1560, "monthly": 130, "rank": 25, "trend": "up" },
+      "renters": { "annual": 285, "monthly": 24, "rank": 37, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 46, "rank": 28, "trend": "stable" }
+    },
+    "Arkansas": {
+      "slug": "arkansas",
+      "abbreviation": "AR",
+      "auto": { "annual": 1620, "monthly": 135, "rank": 22, "trend": "up" },
+      "home": { "annual": 2800, "monthly": 233, "rank": 47, "trend": "up" },
+      "renters": { "annual": 255, "monthly": 21, "rank": 24, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 43, "rank": 21, "trend": "stable" }
+    },
+    "California": {
+      "slug": "california",
+      "abbreviation": "CA",
+      "auto": { "annual": 2720, "monthly": 227, "rank": 48, "trend": "up" },
+      "home": { "annual": 2180, "monthly": 182, "rank": 44, "trend": "up" },
+      "renters": { "annual": 310, "monthly": 26, "rank": 45, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 48, "rank": 33, "trend": "stable" }
+    },
+    "Colorado": {
+      "slug": "colorado",
+      "abbreviation": "CO",
+      "auto": { "annual": 2020, "monthly": 168, "rank": 40, "trend": "up" },
+      "home": { "annual": 1850, "monthly": 154, "rank": 35, "trend": "up" },
+      "renters": { "annual": 295, "monthly": 25, "rank": 40, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 46, "rank": 29, "trend": "stable" }
+    },
+    "Connecticut": {
+      "slug": "connecticut",
+      "abbreviation": "CT",
+      "auto": { "annual": 1830, "monthly": 153, "rank": 33, "trend": "up" },
+      "home": { "annual": 1490, "monthly": 124, "rank": 22, "trend": "stable" },
+      "renters": { "annual": 270, "monthly": 23, "rank": 32, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 47, "rank": 30, "trend": "stable" }
+    },
+    "Delaware": {
+      "slug": "delaware",
+      "abbreviation": "DE",
+      "auto": { "annual": 1820, "monthly": 152, "rank": 31, "trend": "stable" },
+      "home": { "annual": 780, "monthly": 65, "rank": 4, "trend": "stable" },
+      "renters": { "annual": 255, "monthly": 21, "rank": 25, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 45, "rank": 25, "trend": "stable" }
+    },
+    "District of Columbia": {
+      "slug": "district-of-columbia",
+      "abbreviation": "DC",
+      "auto": { "annual": 1980, "monthly": 165, "rank": 39, "trend": "up" },
+      "home": { "annual": 1120, "monthly": 93, "rank": 10, "trend": "stable" },
+      "renters": { "annual": 305, "monthly": 25, "rank": 44, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 49, "rank": 36, "trend": "stable" }
+    },
+    "Florida": {
+      "slug": "florida",
+      "abbreviation": "FL",
+      "auto": { "annual": 2560, "monthly": 213, "rank": 49, "trend": "up" },
+      "home": { "annual": 4400, "monthly": 367, "rank": 51, "trend": "up" },
+      "renters": { "annual": 330, "monthly": 28, "rank": 48, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 50, "rank": 38, "trend": "stable" }
+    },
+    "Georgia": {
+      "slug": "georgia",
+      "abbreviation": "GA",
+      "auto": { "annual": 2180, "monthly": 182, "rank": 46, "trend": "up" },
+      "home": { "annual": 1980, "monthly": 165, "rank": 39, "trend": "up" },
+      "renters": { "annual": 295, "monthly": 25, "rank": 41, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 46, "rank": 27, "trend": "stable" }
+    },
+    "Hawaii": {
+      "slug": "hawaii",
+      "abbreviation": "HI",
+      "auto": { "annual": 1160, "monthly": 97, "rank": 4, "trend": "stable" },
+      "home": { "annual": 560, "monthly": 47, "rank": 1, "trend": "stable" },
+      "renters": { "annual": 195, "monthly": 16, "rank": 1, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 44, "rank": 23, "trend": "stable" }
+    },
+    "Idaho": {
+      "slug": "idaho",
+      "abbreviation": "ID",
+      "auto": { "annual": 1140, "monthly": 95, "rank": 3, "trend": "stable" },
+      "home": { "annual": 875, "monthly": 73, "rank": 6, "trend": "up" },
+      "renters": { "annual": 225, "monthly": 19, "rank": 13, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 42, "rank": 18, "trend": "stable" }
+    },
+    "Illinois": {
+      "slug": "illinois",
+      "abbreviation": "IL",
+      "auto": { "annual": 1865, "monthly": 155, "rank": 35, "trend": "up" },
+      "home": { "annual": 1620, "monthly": 135, "rank": 30, "trend": "up" },
+      "renters": { "annual": 265, "monthly": 22, "rank": 30, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 47, "rank": 31, "trend": "stable" }
+    },
+    "Indiana": {
+      "slug": "indiana",
+      "abbreviation": "IN",
+      "auto": { "annual": 1395, "monthly": 116, "rank": 10, "trend": "stable" },
+      "home": { "annual": 1350, "monthly": 113, "rank": 18, "trend": "up" },
+      "renters": { "annual": 240, "monthly": 20, "rank": 18, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 43, "rank": 20, "trend": "stable" }
+    },
+    "Iowa": {
+      "slug": "iowa",
+      "abbreviation": "IA",
+      "auto": { "annual": 1280, "monthly": 107, "rank": 7, "trend": "stable" },
+      "home": { "annual": 1980, "monthly": 165, "rank": 38, "trend": "up" },
+      "renters": { "annual": 230, "monthly": 19, "rank": 14, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 42, "rank": 16, "trend": "stable" }
+    },
+    "Kansas": {
+      "slug": "kansas",
+      "abbreviation": "KS",
+      "auto": { "annual": 1640, "monthly": 137, "rank": 23, "trend": "up" },
+      "home": { "annual": 3500, "monthly": 292, "rank": 49, "trend": "up" },
+      "renters": { "annual": 265, "monthly": 22, "rank": 31, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 43, "rank": 17, "trend": "stable" }
+    },
+    "Kentucky": {
+      "slug": "kentucky",
+      "abbreviation": "KY",
+      "auto": { "annual": 1900, "monthly": 158, "rank": 37, "trend": "up" },
+      "home": { "annual": 1680, "monthly": 140, "rank": 31, "trend": "up" },
+      "renters": { "annual": 250, "monthly": 21, "rank": 23, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 44, "rank": 24, "trend": "stable" }
+    },
+    "Louisiana": {
+      "slug": "louisiana",
+      "abbreviation": "LA",
+      "auto": { "annual": 2780, "monthly": 232, "rank": 50, "trend": "up" },
+      "home": { "annual": 3180, "monthly": 265, "rank": 48, "trend": "up" },
+      "renters": { "annual": 340, "monthly": 28, "rank": 50, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 52, "rank": 43, "trend": "up" }
+    },
+    "Maine": {
+      "slug": "maine",
+      "abbreviation": "ME",
+      "auto": { "annual": 1020, "monthly": 85, "rank": 1, "trend": "stable" },
+      "home": { "annual": 900, "monthly": 75, "rank": 7, "trend": "stable" },
+      "renters": { "annual": 210, "monthly": 18, "rank": 7, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 41, "rank": 10, "trend": "stable" }
+    },
+    "Maryland": {
+      "slug": "maryland",
+      "abbreviation": "MD",
+      "auto": { "annual": 1950, "monthly": 163, "rank": 38, "trend": "up" },
+      "home": { "annual": 1260, "monthly": 105, "rank": 15, "trend": "stable" },
+      "renters": { "annual": 275, "monthly": 23, "rank": 33, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 47, "rank": 32, "trend": "stable" }
+    },
+    "Massachusetts": {
+      "slug": "massachusetts",
+      "abbreviation": "MA",
+      "auto": { "annual": 1960, "monthly": 163, "rank": 39, "trend": "up" },
+      "home": { "annual": 1380, "monthly": 115, "rank": 19, "trend": "stable" },
+      "renters": { "annual": 280, "monthly": 23, "rank": 35, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 46, "rank": 26, "trend": "stable" }
+    },
+    "Michigan": {
+      "slug": "michigan",
+      "abbreviation": "MI",
+      "auto": { "annual": 2900, "monthly": 242, "rank": 51, "trend": "down" },
+      "home": { "annual": 1140, "monthly": 95, "rank": 11, "trend": "stable" },
+      "renters": { "annual": 235, "monthly": 20, "rank": 17, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 45, "rank": 26, "trend": "stable" }
+    },
+    "Minnesota": {
+      "slug": "minnesota",
+      "abbreviation": "MN",
+      "auto": { "annual": 1540, "monthly": 128, "rank": 16, "trend": "up" },
+      "home": { "annual": 1720, "monthly": 143, "rank": 33, "trend": "up" },
+      "renters": { "annual": 230, "monthly": 19, "rank": 15, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 44, "rank": 21, "trend": "stable" }
+    },
+    "Mississippi": {
+      "slug": "mississippi",
+      "abbreviation": "MS",
+      "auto": { "annual": 1740, "monthly": 145, "rank": 27, "trend": "up" },
+      "home": { "annual": 2220, "monthly": 185, "rank": 45, "trend": "up" },
+      "renters": { "annual": 265, "monthly": 22, "rank": 29, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 48, "rank": 34, "trend": "stable" }
+    },
+    "Missouri": {
+      "slug": "missouri",
+      "abbreviation": "MO",
+      "auto": { "annual": 1590, "monthly": 133, "rank": 21, "trend": "up" },
+      "home": { "annual": 2140, "monthly": 178, "rank": 42, "trend": "up" },
+      "renters": { "annual": 260, "monthly": 22, "rank": 27, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 43, "rank": 18, "trend": "stable" }
+    },
+    "Montana": {
+      "slug": "montana",
+      "abbreviation": "MT",
+      "auto": { "annual": 1580, "monthly": 132, "rank": 19, "trend": "up" },
+      "home": { "annual": 1480, "monthly": 123, "rank": 21, "trend": "up" },
+      "renters": { "annual": 235, "monthly": 20, "rank": 16, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 42, "rank": 15, "trend": "stable" }
+    },
+    "Nebraska": {
+      "slug": "nebraska",
+      "abbreviation": "NE",
+      "auto": { "annual": 1460, "monthly": 122, "rank": 14, "trend": "up" },
+      "home": { "annual": 3380, "monthly": 282, "rank": 49, "trend": "up" },
+      "renters": { "annual": 250, "monthly": 21, "rank": 22, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 42, "rank": 14, "trend": "stable" }
+    },
+    "Nevada": {
+      "slug": "nevada",
+      "abbreviation": "NV",
+      "auto": { "annual": 2180, "monthly": 182, "rank": 47, "trend": "up" },
+      "home": { "annual": 1320, "monthly": 110, "rank": 16, "trend": "up" },
+      "renters": { "annual": 280, "monthly": 23, "rank": 34, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 47, "rank": 33, "trend": "stable" }
+    },
+    "New Hampshire": {
+      "slug": "new-hampshire",
+      "abbreviation": "NH",
+      "auto": { "annual": 1180, "monthly": 98, "rank": 5, "trend": "stable" },
+      "home": { "annual": 1050, "monthly": 88, "rank": 7, "trend": "stable" },
+      "renters": { "annual": 215, "monthly": 18, "rank": 9, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 41, "rank": 9, "trend": "stable" }
+    },
+    "New Jersey": {
+      "slug": "new-jersey",
+      "abbreviation": "NJ",
+      "auto": { "annual": 2050, "monthly": 171, "rank": 42, "trend": "up" },
+      "home": { "annual": 1340, "monthly": 112, "rank": 17, "trend": "stable" },
+      "renters": { "annual": 285, "monthly": 24, "rank": 38, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 48, "rank": 35, "trend": "stable" }
+    },
+    "New Mexico": {
+      "slug": "new-mexico",
+      "abbreviation": "NM",
+      "auto": { "annual": 1760, "monthly": 147, "rank": 29, "trend": "up" },
+      "home": { "annual": 1420, "monthly": 118, "rank": 20, "trend": "up" },
+      "renters": { "annual": 260, "monthly": 22, "rank": 26, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 44, "rank": 22, "trend": "stable" }
+    },
+    "New York": {
+      "slug": "new-york",
+      "abbreviation": "NY",
+      "auto": { "annual": 2100, "monthly": 175, "rank": 45, "trend": "up" },
+      "home": { "annual": 1640, "monthly": 137, "rank": 29, "trend": "up" },
+      "renters": { "annual": 290, "monthly": 24, "rank": 39, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 50, "rank": 39, "trend": "stable" }
+    },
+    "North Carolina": {
+      "slug": "north-carolina",
+      "abbreviation": "NC",
+      "auto": { "annual": 1430, "monthly": 119, "rank": 12, "trend": "up" },
+      "home": { "annual": 1720, "monthly": 143, "rank": 32, "trend": "up" },
+      "renters": { "annual": 255, "monthly": 21, "rank": 23, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 44, "rank": 20, "trend": "stable" }
+    },
+    "North Dakota": {
+      "slug": "north-dakota",
+      "abbreviation": "ND",
+      "auto": { "annual": 1380, "monthly": 115, "rank": 11, "trend": "stable" },
+      "home": { "annual": 1740, "monthly": 145, "rank": 34, "trend": "up" },
+      "renters": { "annual": 180, "monthly": 15, "rank": 2, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 41, "rank": 11, "trend": "stable" }
+    },
+    "Ohio": {
+      "slug": "ohio",
+      "abbreviation": "OH",
+      "auto": { "annual": 1360, "monthly": 113, "rank": 10, "trend": "up" },
+      "home": { "annual": 1140, "monthly": 95, "rank": 12, "trend": "stable" },
+      "renters": { "annual": 235, "monthly": 20, "rank": 16, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 42, "rank": 13, "trend": "stable" }
+    },
+    "Oklahoma": {
+      "slug": "oklahoma",
+      "abbreviation": "OK",
+      "auto": { "annual": 1700, "monthly": 142, "rank": 27, "trend": "up" },
+      "home": { "annual": 4140, "monthly": 345, "rank": 50, "trend": "up" },
+      "renters": { "annual": 330, "monthly": 28, "rank": 49, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 44, "rank": 19, "trend": "stable" }
+    },
+    "Oregon": {
+      "slug": "oregon",
+      "abbreviation": "OR",
+      "auto": { "annual": 1565, "monthly": 130, "rank": 17, "trend": "up" },
+      "home": { "annual": 860, "monthly": 72, "rank": 5, "trend": "up" },
+      "renters": { "annual": 265, "monthly": 22, "rank": 29, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 44, "rank": 23, "trend": "stable" }
+    },
+    "Pennsylvania": {
+      "slug": "pennsylvania",
+      "abbreviation": "PA",
+      "auto": { "annual": 1820, "monthly": 152, "rank": 32, "trend": "up" },
+      "home": { "annual": 1140, "monthly": 95, "rank": 13, "trend": "stable" },
+      "renters": { "annual": 255, "monthly": 21, "rank": 24, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 45, "rank": 24, "trend": "stable" }
+    },
+    "Rhode Island": {
+      "slug": "rhode-island",
+      "abbreviation": "RI",
+      "auto": { "annual": 2050, "monthly": 171, "rank": 43, "trend": "up" },
+      "home": { "annual": 1620, "monthly": 135, "rank": 28, "trend": "stable" },
+      "renters": { "annual": 270, "monthly": 23, "rank": 31, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 46, "rank": 28, "trend": "stable" }
+    },
+    "South Carolina": {
+      "slug": "south-carolina",
+      "abbreviation": "SC",
+      "auto": { "annual": 1840, "monthly": 153, "rank": 34, "trend": "up" },
+      "home": { "annual": 1980, "monthly": 165, "rank": 40, "trend": "up" },
+      "renters": { "annual": 270, "monthly": 23, "rank": 32, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 46, "rank": 27, "trend": "stable" }
+    },
+    "South Dakota": {
+      "slug": "south-dakota",
+      "abbreviation": "SD",
+      "auto": { "annual": 1580, "monthly": 132, "rank": 20, "trend": "up" },
+      "home": { "annual": 1840, "monthly": 153, "rank": 36, "trend": "up" },
+      "renters": { "annual": 185, "monthly": 15, "rank": 3, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 41, "rank": 12, "trend": "stable" }
+    },
+    "Tennessee": {
+      "slug": "tennessee",
+      "abbreviation": "TN",
+      "auto": { "annual": 1570, "monthly": 131, "rank": 18, "trend": "up" },
+      "home": { "annual": 1720, "monthly": 143, "rank": 33, "trend": "up" },
+      "renters": { "annual": 255, "monthly": 21, "rank": 25, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 44, "rank": 20, "trend": "stable" }
+    },
+    "Texas": {
+      "slug": "texas",
+      "abbreviation": "TX",
+      "auto": { "annual": 2050, "monthly": 171, "rank": 44, "trend": "up" },
+      "home": { "annual": 3220, "monthly": 268, "rank": 49, "trend": "up" },
+      "renters": { "annual": 325, "monthly": 27, "rank": 47, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 49, "rank": 37, "trend": "stable" }
+    },
+    "Utah": {
+      "slug": "utah",
+      "abbreviation": "UT",
+      "auto": { "annual": 1640, "monthly": 137, "rank": 24, "trend": "up" },
+      "home": { "annual": 1020, "monthly": 85, "rank": 8, "trend": "up" },
+      "renters": { "annual": 245, "monthly": 20, "rank": 20, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 43, "rank": 17, "trend": "stable" }
+    },
+    "Vermont": {
+      "slug": "vermont",
+      "abbreviation": "VT",
+      "auto": { "annual": 1090, "monthly": 91, "rank": 2, "trend": "stable" },
+      "home": { "annual": 1040, "monthly": 87, "rank": 6, "trend": "stable" },
+      "renters": { "annual": 205, "monthly": 17, "rank": 5, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 40, "rank": 7, "trend": "stable" }
+    },
+    "Virginia": {
+      "slug": "virginia",
+      "abbreviation": "VA",
+      "auto": { "annual": 1440, "monthly": 120, "rank": 13, "trend": "up" },
+      "home": { "annual": 1280, "monthly": 107, "rank": 14, "trend": "stable" },
+      "renters": { "annual": 265, "monthly": 22, "rank": 29, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 45, "rank": 25, "trend": "stable" }
+    },
+    "Washington": {
+      "slug": "washington",
+      "abbreviation": "WA",
+      "auto": { "annual": 1890, "monthly": 158, "rank": 36, "trend": "up" },
+      "home": { "annual": 1160, "monthly": 97, "rank": 14, "trend": "up" },
+      "renters": { "annual": 285, "monthly": 24, "rank": 36, "trend": "up" },
+      "life_term_500k_40yr_male": { "monthly": 46, "rank": 29, "trend": "stable" }
+    },
+    "West Virginia": {
+      "slug": "west-virginia",
+      "abbreviation": "WV",
+      "auto": { "annual": 1650, "monthly": 138, "rank": 25, "trend": "up" },
+      "home": { "annual": 920, "monthly": 77, "rank": 7, "trend": "stable" },
+      "renters": { "annual": 220, "monthly": 18, "rank": 11, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 46, "rank": 29, "trend": "stable" }
+    },
+    "Wisconsin": {
+      "slug": "wisconsin",
+      "abbreviation": "WI",
+      "auto": { "annual": 1250, "monthly": 104, "rank": 6, "trend": "stable" },
+      "home": { "annual": 850, "monthly": 71, "rank": 5, "trend": "stable" },
+      "renters": { "annual": 220, "monthly": 18, "rank": 10, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 41, "rank": 10, "trend": "stable" }
+    },
+    "Wyoming": {
+      "slug": "wyoming",
+      "abbreviation": "WY",
+      "auto": { "annual": 1290, "monthly": 108, "rank": 8, "trend": "stable" },
+      "home": { "annual": 1200, "monthly": 100, "rank": 15, "trend": "stable" },
+      "renters": { "annual": 200, "monthly": 17, "rank": 4, "trend": "stable" },
+      "life_term_500k_40yr_male": { "monthly": 41, "rank": 8, "trend": "stable" }
+    }
+  },
+  "national_averages": {
+    "auto": { "annual": 1780, "monthly": 148 },
+    "home": { "annual": 1428, "monthly": 119 },
+    "renters": { "annual": 263, "monthly": 22 },
+    "life_term_500k_40yr_male": { "monthly": 48 }
+  },
+  "last_updated": "2026-01",
+  "sources": [
+    "NAIC 2025 Auto Insurance Database Report",
+    "Insurance Information Institute 2025",
+    "NAIC Homeowners Report 2025"
+  ]
+}

@@ -1,0 +1,211 @@
+{
+  "insurers": [
+    {
+      "id": "geico",
+      "name": "GEICO",
+      "logo_text": "GEICO",
+      "price_tier": "budget",
+      "naic_complaint_index": 0.79,
+      "jd_power_auto_score": 874,
+      "jd_power_home_score": null,
+      "am_best_rating": "A++",
+      "best_for": ["budget-conscious drivers", "military members", "simple coverage needs"],
+      "not_best_for": ["those needing local agents", "complex coverage situations"],
+      "pros": [
+        "Consistently among the cheapest rates nationally",
+        "Excellent online and app experience",
+        "Strong financial stability rating",
+        "15-minute quote process"
+      ],
+      "cons": [
+        "Limited local agent availability",
+        "Below-average claims satisfaction scores",
+        "Fewer coverage add-ons than competitors"
+      ],
+      "types_offered": ["auto", "home", "renters", "life", "umbrella"],
+      "military_only": false,
+      "summary": "GEICO is the go-to choice for drivers who prioritize low premiums over personalized service. Ideal for straightforward coverage needs and tech-comfortable customers.",
+      "affiliate_note": "placeholder"
+    },
+    {
+      "id": "progressive",
+      "name": "Progressive",
+      "logo_text": "Progressive",
+      "price_tier": "budget",
+      "naic_complaint_index": 0.93,
+      "jd_power_auto_score": 856,
+      "jd_power_home_score": 801,
+      "am_best_rating": "A+",
+      "best_for": ["high-risk drivers", "bundlers", "Snapshot discount seekers", "those with accidents on record"],
+      "not_best_for": ["drivers with perfect records seeking absolute lowest rates"],
+      "pros": [
+        "Name Your Price tool lets you start with a budget",
+        "Best rates for drivers with accidents or violations",
+        "Snapshot telematics can cut rates significantly",
+        "Strong bundling discounts"
+      ],
+      "cons": [
+        "Rates for clean-record drivers often not the lowest",
+        "Customer service ratings below industry average",
+        "Snapshot program can raise rates if it tracks poor driving"
+      ],
+      "types_offered": ["auto", "home", "renters", "life", "commercial"],
+      "military_only": false,
+      "summary": "Progressive shines for non-standard drivers. If you have a spotty record or want to start with a target price and work backward, Progressive is worth a serious look."
+    },
+    {
+      "id": "state-farm",
+      "name": "State Farm",
+      "logo_text": "State Farm",
+      "price_tier": "mid",
+      "naic_complaint_index": 0.55,
+      "jd_power_auto_score": 891,
+      "jd_power_home_score": 829,
+      "am_best_rating": "A++",
+      "best_for": ["those wanting a local agent", "bundlers", "young drivers on parent policy", "customer service priority"],
+      "not_best_for": ["pure price shoppers", "fully digital-first customers"],
+      "pros": [
+        "Largest network of local agents in the US",
+        "Top-tier claims satisfaction consistently",
+        "Best-in-class Drive Safe & Save telematics discount",
+        "Outstanding bundling discounts"
+      ],
+      "cons": [
+        "Not always the cheapest option",
+        "Online quotes less intuitive than GEICO or Progressive",
+        "Limited in some states due to market conditions"
+      ],
+      "types_offered": ["auto", "home", "renters", "life", "health", "commercial"],
+      "military_only": false,
+      "summary": "State Farm is the relationship insurer. If you want a real person handling your policy and claims, and you're willing to pay a small premium for it, State Farm consistently earns that trust."
+    },
+    {
+      "id": "allstate",
+      "name": "Allstate",
+      "logo_text": "Allstate",
+      "price_tier": "mid",
+      "naic_complaint_index": 1.15,
+      "jd_power_auto_score": 848,
+      "jd_power_home_score": 815,
+      "am_best_rating": "A+",
+      "best_for": ["bundlers", "those wanting new car replacement", "accident forgiveness seekers"],
+      "not_best_for": ["price-sensitive shoppers", "those with accident history"],
+      "pros": [
+        "Accident forgiveness program",
+        "New car replacement coverage available",
+        "Drivewise telematics rewards safe driving",
+        "Strong local agent network"
+      ],
+      "cons": [
+        "Rates consistently above industry average",
+        "Higher-than-average NAIC complaint index",
+        "Premium increases after claims are significant"
+      ],
+      "types_offered": ["auto", "home", "renters", "life", "commercial"],
+      "military_only": false,
+      "summary": "Allstate offers solid coverage with useful extras like accident forgiveness, but you'll pay more for it. Best when you value those specific features over raw savings."
+    },
+    {
+      "id": "liberty-mutual",
+      "name": "Liberty Mutual",
+      "logo_text": "Liberty Mutual",
+      "price_tier": "mid",
+      "naic_complaint_index": 1.72,
+      "jd_power_auto_score": 822,
+      "jd_power_home_score": 805,
+      "am_best_rating": "A",
+      "best_for": ["new car owners", "those wanting customizable coverage", "RightTrack telematics participants"],
+      "not_best_for": ["those prioritizing service satisfaction", "budget shoppers"],
+      "pros": [
+        "Better Car Replacement covers a newer model if yours is totaled",
+        "Highly customizable coverage options",
+        "RightTrack can reduce premiums up to 30%"
+      ],
+      "cons": [
+        "Rates often higher than competitors for similar coverage",
+        "Above-average complaint index",
+        "Customer satisfaction scores below industry average"
+      ],
+      "types_offered": ["auto", "home", "renters", "life", "commercial"],
+      "military_only": false,
+      "summary": "Liberty Mutual's coverage customization is genuinely good, but the higher rates and weaker service scores mean you should comparison-shop carefully before committing."
+    },
+    {
+      "id": "nationwide",
+      "name": "Nationwide",
+      "logo_text": "Nationwide",
+      "price_tier": "mid",
+      "naic_complaint_index": 0.68,
+      "jd_power_auto_score": 876,
+      "jd_power_home_score": 828,
+      "am_best_rating": "A+",
+      "best_for": ["bundlers", "farmers and ranchers", "those wanting on-your-side claims service"],
+      "not_best_for": ["urban drivers seeking the cheapest rates"],
+      "pros": [
+        "Below-average complaint ratio",
+        "Strong On Your Side claims review process",
+        "Farm Bureau partnerships for rural customers",
+        "Competitive bundling discounts"
+      ],
+      "cons": [
+        "Not available in all states",
+        "Fewer discount options than GEICO or Progressive",
+        "Online experience lags behind digital-first competitors"
+      ],
+      "types_offered": ["auto", "home", "renters", "life", "farm", "commercial"],
+      "military_only": false,
+      "summary": "Nationwide is a solid mid-tier choice with strong claims satisfaction and good bundling. Especially worth considering for rural customers and farm property."
+    },
+    {
+      "id": "farmers",
+      "name": "Farmers",
+      "logo_text": "Farmers",
+      "price_tier": "premium",
+      "naic_complaint_index": 0.88,
+      "jd_power_auto_score": 856,
+      "jd_power_home_score": 791,
+      "am_best_rating": "A",
+      "best_for": ["those wanting agent relationships", "high-value home owners", "classic car owners", "rideshare drivers"],
+      "not_best_for": ["price-sensitive customers"],
+      "pros": [
+        "Rideshare insurance for Uber/Lyft drivers",
+        "Classic/antique car coverage available",
+        "Strong agent network for complex needs",
+        "Signal app telematics available"
+      ],
+      "cons": [
+        "Rates consistently higher than average",
+        "Home insurance J.D. Power scores below average",
+        "Not available in all states"
+      ],
+      "types_offered": ["auto", "home", "renters", "life", "commercial", "classic-car"],
+      "military_only": false,
+      "summary": "Farmers costs more but offers coverage options others don't — particularly for rideshare drivers and classic car owners. The price premium is only justified if you need those specifics."
+    },
+    {
+      "id": "usaa",
+      "name": "USAA",
+      "logo_text": "USAA",
+      "price_tier": "budget",
+      "naic_complaint_index": 0.26,
+      "jd_power_auto_score": 909,
+      "jd_power_home_score": 882,
+      "am_best_rating": "A++",
+      "best_for": ["military members", "veterans", "military families — the only people eligible"],
+      "not_best_for": ["anyone not affiliated with the US military — not available"],
+      "pros": [
+        "Consistently highest J.D. Power scores in the industry",
+        "Lowest complaint ratio of any major insurer",
+        "Highly competitive rates for members",
+        "Outstanding claims experience"
+      ],
+      "cons": [
+        "Only available to military members, veterans, and their immediate families",
+        "No physical agent offices for in-person service"
+      ],
+      "types_offered": ["auto", "home", "renters", "life", "banking"],
+      "military_only": true,
+      "summary": "USAA is the best insurance company in America by virtually every metric — but only if you're eligible. If you or a family member served, apply immediately."
+    }
+  ]
+}

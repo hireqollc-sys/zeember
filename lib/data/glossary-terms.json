@@ -1,0 +1,229 @@
+{
+  "terms": [
+    {
+      "term": "Deductible",
+      "slug": "deductible",
+      "short_definition": "The amount you pay out of pocket before insurance kicks in.",
+      "full_definition": "A deductible is the fixed dollar amount you agree to pay toward a covered claim before your insurance company pays the rest. For example, if you have a $1,000 deductible and file a claim for $3,500 in damage, you pay $1,000 and your insurer pays $2,500. Higher deductibles lower your premium; lower deductibles raise it.",
+      "example": "Your car is damaged in a hail storm. Repair cost: $2,200. Your deductible: $500. You pay $500. Your insurer pays $1,700.",
+      "related_calculator": "/auto-insurance-calculator",
+      "related_terms": ["premium", "out-of-pocket-maximum", "copay"]
+    },
+    {
+      "term": "Premium",
+      "slug": "premium",
+      "short_definition": "The amount you pay for your insurance policy, usually monthly or annually.",
+      "full_definition": "A premium is the price you pay to maintain your insurance coverage. It can be paid monthly, quarterly, or annually. Your premium is calculated based on your risk factors — for auto insurance, that includes your age, driving record, vehicle type, location, and coverage level. Paying annually is usually 5-10% cheaper than paying monthly.",
+      "example": "Your auto insurance premium is $148/month or $1,680/year. Paying annually saves you about $96.",
+      "related_calculator": "/auto-insurance-calculator",
+      "related_terms": ["deductible", "coverage-limit"]
+    },
+    {
+      "term": "Coverage limit",
+      "slug": "coverage-limit",
+      "short_definition": "The maximum amount your insurer will pay for a covered claim.",
+      "full_definition": "A coverage limit is the cap on what your insurance company will pay for a single claim or over the policy period. For example, if you have $100,000 in bodily injury liability coverage and cause an accident with $150,000 in medical bills, your insurer pays $100,000 and you are personally responsible for the remaining $50,000.",
+      "example": "You have $100,000/$300,000 liability limits. Your insurer pays up to $100,000 per person injured and $300,000 total per accident.",
+      "related_calculator": "/auto-insurance-calculator",
+      "related_terms": ["liability-insurance", "umbrella-insurance"]
+    },
+    {
+      "term": "Liability insurance",
+      "slug": "liability-insurance",
+      "short_definition": "Coverage that pays for damage or injuries you cause to others.",
+      "full_definition": "Liability insurance covers costs you become legally responsible for when you cause harm to other people or their property. In auto insurance, this means covering medical bills and property damage for others if you cause an accident. In home insurance, it covers injuries that happen on your property. Liability coverage does NOT cover your own injuries or property damage — that requires separate coverage.",
+      "example": "You run a red light and hit another car. The other driver's medical bills total $45,000. Your $100,000 liability coverage pays it. Your own injuries are covered by your medical payments/PIP coverage.",
+      "related_calculator": "/full-coverage-vs-liability-calculator",
+      "related_terms": ["full-coverage", "umbrella-insurance", "coverage-limit"]
+    },
+    {
+      "term": "Full coverage",
+      "slug": "full-coverage",
+      "short_definition": "A package including liability, collision, and comprehensive coverage.",
+      "full_definition": "Full coverage is not a specific policy type — it's industry shorthand for a combination of liability coverage (required by law), collision coverage (pays for your car if you hit something), and comprehensive coverage (pays for non-collision damage like theft, weather, or fire). It's required by lenders when you finance or lease a vehicle.",
+      "example": "A deer runs into your car at night. Comprehensive coverage pays for repairs (minus your deductible). Without comprehensive, you'd pay out of pocket.",
+      "related_calculator": "/full-coverage-vs-liability-calculator",
+      "related_terms": ["collision-coverage", "comprehensive-coverage", "liability-insurance"]
+    },
+    {
+      "term": "Collision coverage",
+      "slug": "collision-coverage",
+      "short_definition": "Pays to repair or replace your vehicle after an accident.",
+      "full_definition": "Collision coverage pays for damage to your vehicle when it collides with another vehicle or object, regardless of fault. If you hit a guardrail, get rear-ended and your car is damaged, or roll your vehicle, collision coverage pays for repairs up to your vehicle's actual cash value, minus your deductible. It's optional if you own your car outright, but required if you're financing or leasing.",
+      "example": "You back into a pole in a parking lot. Damage: $1,800. Your collision deductible: $500. Your insurer pays $1,300.",
+      "related_calculator": "/full-coverage-vs-liability-calculator",
+      "related_terms": ["comprehensive-coverage", "deductible", "full-coverage"]
+    },
+    {
+      "term": "Comprehensive coverage",
+      "slug": "comprehensive-coverage",
+      "short_definition": "Covers non-collision damage like theft, weather, and fire.",
+      "full_definition": "Comprehensive coverage pays for damage to your vehicle that is not caused by a collision. This includes theft, vandalism, hail damage, flood damage, fire, falling objects, and animal strikes. Like collision coverage, it pays up to your vehicle's actual cash value minus your deductible. It's optional if you own your car, but required by lenders.",
+      "example": "A hailstorm dents your car heavily. Damage estimate: $4,200. Your comprehensive deductible: $500. Your insurer pays $3,700.",
+      "related_calculator": "/full-coverage-vs-liability-calculator",
+      "related_terms": ["collision-coverage", "deductible", "full-coverage"]
+    },
+    {
+      "term": "Underwriting",
+      "slug": "underwriting",
+      "short_definition": "The process insurers use to assess your risk and set your premium.",
+      "full_definition": "Underwriting is how insurance companies decide whether to cover you and at what price. Underwriters analyze your risk factors — for auto insurance: driving record, age, credit score, vehicle type, location, claims history. For life insurance: age, health, occupation, lifestyle. The riskier your profile, the higher your premium. Some high-risk applicants may be declined entirely.",
+      "example": "You apply for auto insurance with two at-fault accidents in the last three years. The underwriter flags you as high-risk. You're approved, but at 1.8x the standard rate.",
+      "related_calculator": "/auto-insurance-calculator",
+      "related_terms": ["premium", "risk-assessment", "claims-history"]
+    },
+    {
+      "term": "Subrogation",
+      "slug": "subrogation",
+      "short_definition": "When your insurer recovers money from the at-fault party after paying your claim.",
+      "full_definition": "Subrogation is the legal process where your insurance company steps into your shoes to pursue recovery from a third party who caused your loss. Example: someone rear-ends your car. Your collision coverage pays for your repairs quickly. Then your insurer pursues the at-fault driver's insurer to reclaim those costs. If successful, you may receive your deductible back.",
+      "example": "A distracted driver totals your car. Your insurer pays you $18,000. Your insurer then sues the at-fault driver's insurance and recovers $18,000. You get your $500 deductible back.",
+      "related_calculator": "/auto-insurance-calculator",
+      "related_terms": ["at-fault", "claims-process", "deductible"]
+    },
+    {
+      "term": "Actuarial",
+      "slug": "actuarial",
+      "short_definition": "Statistical analysis of risk and probability used to calculate insurance rates.",
+      "full_definition": "Actuarial science is the mathematical discipline insurance companies use to evaluate risk and set prices. Actuaries analyze massive datasets — accident rates by age, weather patterns, crime statistics, health outcomes — to predict how likely claims are and how large they'll be. Your premium reflects actuarial analysis of thousands of people like you, not just your individual history.",
+      "example": "Actuarial data shows that 18-year-old male drivers in urban areas have accident rates 4x higher than 35-year-old female drivers in suburban areas. This directly drives the premium difference.",
+      "related_calculator": "/auto-insurance-calculator",
+      "related_terms": ["underwriting", "risk-assessment", "premium"]
+    },
+    {
+      "term": "NAIC complaint index",
+      "slug": "naic-complaint-index",
+      "short_definition": "A score comparing an insurer's complaint volume to its market share.",
+      "full_definition": "The National Association of Insurance Commissioners (NAIC) tracks every complaint filed against insurance companies in the US. The complaint index compares an insurer's complaint volume to its size — 1.0 is average. Below 1.0 means fewer complaints than expected given the company's size (better). Above 1.0 means more complaints than expected (worse). It's one of the most objective indicators of claims and service quality.",
+      "example": "USAA has an NAIC complaint index of 0.26 — meaning 74% fewer complaints per customer than the industry average. Liberty Mutual's index of 1.72 means 72% more complaints than average.",
+      "related_calculator": "/compare",
+      "related_terms": ["claims-satisfaction", "jd-power-score"]
+    },
+    {
+      "term": "DIME method",
+      "slug": "dime-method",
+      "short_definition": "A formula for calculating life insurance needs: Debt, Income, Mortgage, Education.",
+      "full_definition": "The DIME method is a practical framework for calculating how much life insurance you need. D = all outstanding debts (credit cards, car loans, personal loans — excluding mortgage). I = income × years of replacement needed. M = remaining mortgage balance. E = estimated future education costs per child. Add these four numbers and subtract any existing life insurance coverage to get your coverage gap.",
+      "example": "Debt: $25,000. Income: $65,000 × 15 years = $975,000. Mortgage: $220,000. Education: 2 kids × $100,000 = $200,000. Total need: $1,420,000. Minus existing group life: $130,000. Coverage gap: $1,290,000.",
+      "related_calculator": "/how-much-life-insurance-do-i-need",
+      "related_terms": ["term-life-insurance", "death-benefit", "beneficiary"]
+    },
+    {
+      "term": "Term life insurance",
+      "slug": "term-life-insurance",
+      "short_definition": "Life insurance that covers you for a fixed period, typically 10–30 years.",
+      "full_definition": "Term life insurance provides a death benefit if you die during the policy term. If you outlive the term, the policy expires with no payout. It's the most straightforward and affordable type of life insurance — a healthy 35-year-old can get $500,000 in coverage for around $25–30/month on a 20-year term. Most financial advisors recommend term for income replacement needs.",
+      "example": "You buy a 20-year, $750,000 term policy at age 32. Your premium: $38/month. If you die anytime before age 52, your family receives $750,000. If you're alive at 52, the policy ends.",
+      "related_calculator": "/how-much-life-insurance-do-i-need",
+      "related_terms": ["whole-life-insurance", "death-benefit", "dime-method"]
+    },
+    {
+      "term": "Whole life insurance",
+      "slug": "whole-life-insurance",
+      "short_definition": "Permanent life insurance with a savings component that builds cash value.",
+      "full_definition": "Whole life insurance provides lifetime coverage as long as you pay premiums, and includes a cash value component that grows at a guaranteed rate. You can borrow against this cash value or surrender the policy for its value. Premiums are typically 5–15x higher than term life for the same death benefit. Most financial planners recommend term over whole life for pure income replacement.",
+      "example": "A 35-year-old pays $450/month for $500,000 in whole life coverage. By age 65, the policy has built $180,000 in cash value they can borrow against.",
+      "related_calculator": "/term-vs-whole-life-insurance",
+      "related_terms": ["term-life-insurance", "cash-value", "permanent-life-insurance"]
+    },
+    {
+      "term": "Replacement cost value",
+      "slug": "replacement-cost-value",
+      "short_definition": "Pays to replace your property with a new equivalent, no depreciation deducted.",
+      "full_definition": "Replacement cost value (RCV) coverage pays what it costs to replace your damaged or stolen property with a new equivalent today — without deducting for age or wear. It's more expensive than actual cash value (ACV) coverage but pays significantly more at claim time. For homeowners and renters insurance, RCV coverage for personal property can mean 30–50% more payout on older items.",
+      "example": "Your 5-year-old laptop is stolen. Replacement cost: $1,400. Actual cash value (depreciated): $600. With RCV coverage, you get $1,400. With ACV coverage, you get $600.",
+      "related_calculator": "/renters-insurance-calculator",
+      "related_terms": ["actual-cash-value", "depreciation", "personal-property-coverage"]
+    },
+    {
+      "term": "Actual cash value",
+      "slug": "actual-cash-value",
+      "short_definition": "Pays the depreciated value of property — what it's worth today, not what it costs to replace.",
+      "full_definition": "Actual cash value (ACV) coverage pays the current market value of your property at the time of loss, accounting for depreciation due to age and wear. ACV policies have lower premiums than replacement cost value (RCV) policies, but pay significantly less at claim time for older items. For a 7-year-old sofa that cost $1,200 new, ACV might pay only $300.",
+      "example": "Your roof is 15 years old and is damaged by a storm. Replacement cost: $12,000. With ACV coverage accounting for depreciation, your insurer pays $5,800.",
+      "related_calculator": "/home-insurance-calculator",
+      "related_terms": ["replacement-cost-value", "depreciation", "claims-settlement"]
+    },
+    {
+      "term": "Personal liability coverage",
+      "slug": "personal-liability-coverage",
+      "short_definition": "Pays if someone sues you for injury or property damage you're responsible for.",
+      "full_definition": "Personal liability coverage protects you financially if you're held legally responsible for injuring someone or damaging their property. In homeowners or renters insurance, this covers incidents on your property (a guest slips and falls) and some off-property incidents. Standard policies include $100,000 in liability; most financial advisors recommend $300,000–$500,000, or adding an umbrella policy for broader protection.",
+      "example": "A guest trips on your stairs and breaks their wrist. Medical bills and lost wages total $28,000. Your personal liability coverage pays the claim, protecting your savings.",
+      "related_calculator": "/renters-insurance-calculator",
+      "related_terms": ["umbrella-insurance", "coverage-limit", "liability-insurance"]
+    },
+    {
+      "term": "Umbrella insurance",
+      "slug": "umbrella-insurance",
+      "short_definition": "Extra liability coverage that kicks in when your home or auto policy limits are exceeded.",
+      "full_definition": "An umbrella policy provides an extra layer of liability protection on top of your existing home, auto, and other policies. It activates when those underlying policy limits are exhausted. A $1 million umbrella policy typically costs $150–$300/year — extremely cost-effective protection against a serious lawsuit. Most insurers require you to have minimum liability limits on underlying policies to qualify.",
+      "example": "You cause a multi-car accident with $380,000 in total liability. Your auto policy limit: $300,000. Your umbrella pays the remaining $80,000, protecting your savings and assets.",
+      "related_calculator": "/umbrella-insurance-calculator",
+      "related_terms": ["liability-insurance", "coverage-limit", "personal-liability-coverage"]
+    },
+    {
+      "term": "Health insurance deductible",
+      "slug": "health-insurance-deductible",
+      "short_definition": "The amount you pay for health care each year before insurance starts paying.",
+      "full_definition": "Your health insurance deductible is the total amount you pay out of pocket each year for covered services before your insurance company begins sharing costs. For example, with a $2,000 deductible, you pay 100% of covered medical costs until you've spent $2,000, then your insurer begins paying its share. Preventive care (like annual physicals) is usually covered before the deductible under the ACA.",
+      "example": "Your plan has a $2,000 deductible. You have a minor surgery in March that costs $4,500. You pay the first $2,000. Your insurance pays its share of the remaining $2,500 according to your coinsurance rate.",
+      "related_calculator": "/health-insurance-deductible-calculator",
+      "related_terms": ["out-of-pocket-maximum", "coinsurance", "copay", "hsa"]
+    },
+    {
+      "term": "Out-of-pocket maximum",
+      "slug": "out-of-pocket-maximum",
+      "short_definition": "The most you'll pay in a year before insurance covers 100% of costs.",
+      "full_definition": "The out-of-pocket maximum (OOPM) is the cap on what you'll pay for covered health services in a plan year. Once you reach this limit — through your deductible, copays, and coinsurance combined — your insurance covers 100% of covered services for the rest of the year. ACA plans cap OOPM at $9,450 for individuals and $18,900 for families in 2026.",
+      "example": "Your OOPM is $6,500. After a hospitalization, your total out-of-pocket costs hit $6,500. Any further covered medical costs for the rest of the year are paid 100% by your insurer.",
+      "related_calculator": "/out-of-pocket-max-estimator",
+      "related_terms": ["deductible", "coinsurance", "health-insurance-deductible"]
+    },
+    {
+      "term": "HSA (Health Savings Account)",
+      "slug": "hsa",
+      "short_definition": "A tax-advantaged account for medical expenses, available with high-deductible health plans.",
+      "full_definition": "A Health Savings Account (HSA) lets you save pre-tax money for qualified medical expenses. HSAs are only available if you have a High-Deductible Health Plan (HDHP). Contributions are tax-deductible, growth is tax-free, and withdrawals for qualified medical expenses are tax-free — a triple tax advantage. Unused funds roll over year to year and can be invested. In 2026, individuals can contribute up to $4,300; families up to $8,550.",
+      "example": "You contribute $4,300 to an HSA. That lowers your taxable income by $4,300. You invest it; it grows to $4,800 by year-end. You spend $1,200 on dental work — all tax-free.",
+      "related_calculator": "/hsa-contribution-calculator",
+      "related_terms": ["health-insurance-deductible", "high-deductible-health-plan", "fsa"]
+    },
+    {
+      "term": "ACA subsidy",
+      "slug": "aca-subsidy",
+      "short_definition": "Government financial help to reduce your health insurance premium on the marketplace.",
+      "full_definition": "The Affordable Care Act (ACA) provides premium tax credits to individuals and families whose income falls between 100% and 400% of the federal poverty level (FPL) — and in some cases above 400% under enhanced subsidies. The subsidy reduces your monthly premium directly. Your subsidy amount depends on your income, family size, and the cost of benchmark plans in your area. Apply through healthcare.gov.",
+      "example": "A family of 3 earning $65,000/year may qualify for $600+/month in premium subsidies, reducing a $1,400/month benchmark plan to $800/month or less.",
+      "related_calculator": "/aca-subsidy-estimator",
+      "related_terms": ["health-insurance-deductible", "marketplace-plan", "premium"]
+    },
+    {
+      "term": "Gap insurance",
+      "slug": "gap-insurance",
+      "short_definition": "Covers the difference between what your car is worth and what you owe on your loan.",
+      "full_definition": "Guaranteed Asset Protection (GAP) insurance pays the difference between your vehicle's actual cash value (ACV) and the remaining balance on your auto loan if your car is totaled or stolen. New cars depreciate 20–25% in the first year, but loan payoff is slower — leaving a gap. Without GAP insurance, you'd still owe money on a car you no longer have.",
+      "example": "You owe $28,000 on your car. It's totaled. The ACV is $22,000. Your regular insurance pays $22,000. You still owe $6,000. GAP insurance covers that $6,000.",
+      "related_calculator": "/gap-insurance-calculator",
+      "related_terms": ["actual-cash-value", "collision-coverage", "auto-loan"]
+    },
+    {
+      "term": "SR-22",
+      "slug": "sr-22",
+      "short_definition": "A form proving you carry minimum required auto insurance, required after serious violations.",
+      "full_definition": "An SR-22 is not insurance — it's a certificate of financial responsibility that your insurer files with your state DMV proving you carry the minimum required coverage. It's required after serious violations like DUI/DWI, reckless driving, driving without insurance, or license suspension. SR-22 requirements typically last 3 years and usually increase your insurance premium significantly.",
+      "example": "You receive a DUI. Your state requires an SR-22 for 3 years. Your insurer files the form (fee: $15–$50). Your premium increases by 40–80% during the SR-22 period.",
+      "related_calculator": "/sr-22-insurance-calculator",
+      "related_terms": ["high-risk-driver", "premium", "liability-insurance"]
+    },
+    {
+      "term": "COBRA insurance",
+      "slug": "cobra-insurance",
+      "short_definition": "Temporary health coverage continuation after leaving a job, at your own expense.",
+      "full_definition": "The Consolidated Omnibus Budget Reconciliation Act (COBRA) allows you to continue your employer-sponsored health insurance for up to 18–36 months after leaving a job, losing hours, or experiencing other qualifying events. The catch: you pay the full premium — both your share and what your employer was paying — plus a 2% admin fee. COBRA is often 3–4x what you paid while employed.",
+      "example": "While employed, you paid $180/month for health insurance. Your employer paid $620/month. On COBRA, you pay $180 + $620 + 2% = $816/month for identical coverage.",
+      "related_calculator": "/cobra-cost-calculator",
+      "related_terms": ["health-insurance-deductible", "marketplace-plan", "aca-subsidy"]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+    --radius: 0.75rem;
+    --font-sans: var(--font-inter);
+    --font-serif: var(--font-source-serif);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-neutral-700 bg-white antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+@layer components {
+  .font-serif {
+    font-family: var(--font-serif), Georgia, serif;
+  }
+
+  .font-sans {
+    font-family: var(--font-sans), system-ui, sans-serif;
+  }
+
+  /* Card styles */
+  .card-base {
+    @apply bg-white border border-neutral-200 rounded-2xl shadow-sm;
+  }
+
+  .card-result {
+    @apply bg-primary-light border border-primary-accent/20 rounded-2xl;
+  }
+
+  /* Button styles */
+  .btn-primary {
+    @apply bg-primary-accent text-white px-6 py-3 rounded-xl font-semibold hover:bg-green-600 transition-all;
+  }
+
+  .btn-secondary {
+    @apply border border-primary-accent text-primary-accent px-6 py-3 rounded-xl hover:bg-primary-light transition-all;
+  }
+
+  /* Section spacing */
+  .section-padding {
+    @apply py-20 md:py-12;
+  }
+
+  .container-main {
+    @apply max-w-7xl mx-auto px-6;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Ensure keyboard focus rings are always visible */
+:focus-visible {
+  outline: 2px solid #3FAE76;
+  outline-offset: 2px;
+}
+
+/* Remove default outline only when focus-visible takes over */
+:focus:not(:focus-visible) {
+  outline: none;
+}
