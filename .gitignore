@@ -2,3 +2,7 @@ node_modules
 .next
 .vercel
 *.tsbuildinfo
+
+scripts/service-account.json
+playwright-report/
+test-results/
