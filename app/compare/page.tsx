@@ -5,6 +5,7 @@ import AdUnit from '@/components/AdUnit'
 import Disclaimer from '@/components/Disclaimer'
 import { Badge } from '@/components/ui/badge'
 import { CheckCircle } from 'lucide-react'
+import InsurerComparisonCalculator from '@/components/calculators/InsurerComparisonCalculator'
 
 export const metadata: Metadata = {
   title: 'Compare Insurance Companies Side by Side | Zeember',
@@ -48,6 +49,11 @@ export default function ComparePage() {
         </div>
       </section>
       <div className="max-w-[1280px] mx-auto px-6 py-4"><AdUnit slot="LEADERBOARD_1" format="leaderboard" /></div>
+
+      {/* Interactive comparison calculator */}
+      <section className="max-w-[1280px] mx-auto px-6 py-10 border-b border-neutral-100">
+        <InsurerComparisonCalculator />
+      </section>
 
       <section className="max-w-[1280px] mx-auto px-6 py-8">
         {/* USAA note */}

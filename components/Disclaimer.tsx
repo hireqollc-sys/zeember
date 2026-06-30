@@ -1,6 +1,6 @@
 import { AlertTriangle } from 'lucide-react'
 
-type DisclaimerType = 'calculator' | 'quiz' | 'comparison'
+type DisclaimerType = 'calculator' | 'quiz' | 'comparison' | 'estimate-comparison'
 
 interface DisclaimerProps {
   type: DisclaimerType
@@ -13,6 +13,8 @@ const DISCLAIMER_TEXT: Record<DisclaimerType, string> = {
     'This quiz provides general guidance only. Insurance needs vary by individual circumstances. Consult a licensed agent for personalized advice.',
   comparison:
     'Company data sourced from public NAIC reports and J.D. Power surveys. Data may not reflect current rates or recent company changes.',
+  'estimate-comparison':
+    'Estimates are based on state averages and per-insurer price tier adjustments — not actual underwritten quotes. USAA availability requires military affiliation. For real rates, use the "Get real quote" links to obtain personalized quotes directly from each insurer.',
 }
 
 export default function Disclaimer({ type }: DisclaimerProps) {
