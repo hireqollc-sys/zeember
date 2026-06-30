@@ -68,7 +68,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   })
 
   // Compare + reviews
-  entries.push({ url: `${BASE_URL}/compare`, lastModified: NOW, priority: 0.8, changeFrequency: 'monthly' })
+  entries.push({ url: `${BASE_URL}/compare`, lastModified: NOW, priority: 0.9, changeFrequency: 'monthly' })
   insurerData.insurers.forEach(ins => {
     entries.push({ url: `${BASE_URL}/reviews/${ins.id}`, lastModified: NOW, priority: 0.7, changeFrequency: 'monthly' })
   })
